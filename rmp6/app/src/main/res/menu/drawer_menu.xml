@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_wtf"
+        android:title=" "
+        />
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@drawable/ic_food"
+        android:title="План питания"
+        />
+    <item
+        android:id="@+id/nav_meditation"
+        android:icon="@drawable/ic_meditation"
+        android:title="Медитации и дыхательные практики"
+        />
+    <item
+        android:id="@+id/nav_time"
+        android:icon="@drawable/ic_time"
+        android:title="Распорядок дня"
+        />
+    <item
+        android:id="@+id/onTrain"
+        android:title="К тренировкам!"
+        android:icon="@drawable/ic_run"
+        />
+</menu>

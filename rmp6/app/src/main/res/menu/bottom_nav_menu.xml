@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cardio"
+        android:icon="@drawable/ic_health"
+        android:title="Кардио"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/strength"
+        android:icon="@drawable/ic_power"
+        android:title="Силовые"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/stretching"
+        android:icon="@drawable/ic_sport"
+        android:title="Растяжка"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/onDrawer"
+        android:title="На следующую страницу"
+        android:icon="@drawable/ic_arrow"
+        app:showAsAction="never"
+        />
+
+</menu>

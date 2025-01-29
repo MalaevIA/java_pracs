@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardioFragment">
+
+    <TextView
+        android:id="@+id/cardioTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кардио Тренировка"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:id="@+id/cardioDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кардио-тренировки помогают улучшить выносливость, укрепить сердечно-сосудистую систему и сжечь лишние калории."
+        android:layout_below="@id/cardioTitle"
+        android:paddingBottom="16dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/exercisesListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardioDescription"
+        android:text="Основные упражнения:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+    <TextView
+        android:id="@+id/exercisesList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exercisesListTitle"
+        android:text="1. Бег на месте \n2. Скакалка \n3. Высокие колени \n4. Прыжки с разведением рук и ног"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+    <Button
+        android:id="@+id/startTimerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exercisesList"
+        android:layout_centerHorizontal="true"
+        android:text="Начать тренировку"/>
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_below="@id/startTimerButton"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"/>
+</RelativeLayout>

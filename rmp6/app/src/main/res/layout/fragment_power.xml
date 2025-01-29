@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PowerFragment">
+
+    <TextView
+        android:id="@+id/powerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Силовая Тренировка"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/powerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Силовые тренировки помогают укрепить мышцы и улучшить общую физическую подготовку."
+        android:layout_below="@id/powerTitle"
+        android:paddingBottom="16dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/powerExercisesList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/powerDescription"
+        android:text="1. Приседания \n2. Отжимания \n3. Подъемы ног \n4. Планка"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/startPowerTimerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/powerExercisesList"
+        android:layout_centerHorizontal="true"
+        android:text="Начать тренировку"/>
+
+    <TextView
+        android:id="@+id/powerTimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_below="@id/startPowerTimerButton"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"/>
+
+</RelativeLayout>

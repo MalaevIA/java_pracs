@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StretchingFragment">
+    <TextView
+        android:id="@+id/stretchingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Растяжка"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/stretchingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Упражнения на растяжку помогают улучшить гибкость и снизить напряжение в мышцах."
+        android:layout_below="@id/stretchingTitle"
+        android:paddingBottom="16dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/stretchingExercisesList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stretchingDescription"
+        android:text="1. Наклоны к ногам \n2. Растяжка рук \n3. Растяжка бедер \n4. Скручивание корпуса"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/startStretchingTimerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stretchingExercisesList"
+        android:layout_centerHorizontal="true"
+        android:text="Начать растяжку"/>
+
+    <TextView
+        android:id="@+id/stretchingTimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_below="@id/startStretchingTimerButton"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"/>
+
+
+</RelativeLayout>
